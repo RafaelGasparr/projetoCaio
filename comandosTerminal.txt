@@ -1,0 +1,12 @@
+python -m venv venv ---- criar uma venv  
+.\venv\Scripts\activate ---- ativar venv
+
+python manage.py runserver 
+python manage.py migrate   
+python manage.py createsuperuser --- criar user
+python manage.py startapp 'nome do app'
+python manage.py makemigrations
+
+pip install pillow
+ 
+pip install google-generativeai
